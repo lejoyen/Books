@@ -1,0 +1,89 @@
+div {
+    border: 1px solid rgb(70, 9, 34);
+    background-color:rgb(255, 210, 217);
+    padding: auto;
+    background-image: url(bok.png);
+}
+body {
+    background-image: url(wall.jpg);
+}
+h1 {
+    color: rgb(70, 9, 34);
+    border: 1px solid rgb(51, 16, 22);
+    background-color: rgb(245, 224, 227);
+}
+input {
+    color: purple;
+    background-color: rgb(248, 226, 235);
+}
+button {
+    background-color: rgb(255, 248, 251);
+}
+form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    height: 42px;
+  }
+  input {
+    width: 250px;
+    height: 42px;
+    padding-left: 15px;
+    border-radius: 42px;
+    border: 2px solid #324b4e;
+    background: #F9F0DA;
+    outline: none;
+    position: relative;
+    transition: .3s linear;
+  }
+  button{
+      position: absolute;
+  }
+  h2 {
+      border:2px double rgb(236, 164,194);
+      background-color: rgb(243, 204, 211);
+      color: rgb(43, 13, 17);
+      font-family: Yu Gothic;
+  }
+  h1 {
+      font-family: yu gothic;
+  }
+  a {
+      font-size: 25;
+      font-family: yu gothic;
+      color: rgb(48, 4, 22);
+  }
+  h4 {
+      font-size: 20;
+      font-family: yu gothic;
+      color: rgb(48, 4, 22);
+      font-style: italic;
+  }
+  a, h4 {
+      border: rgb(236, 164, 194) double 5px;
+      background-color: rgb(243, 204, 211);
+  }	
+  body {
+    background-color:#000;
+    height:2000px;
+    color:#ccc;
+   }
+   #floatMenu {
+    position:absolute;
+    top:150px;
+    left:50%;
+    margin-left:235px;
+    width:200px;
+   }
+   #floatMenu ul {
+    margin-bottom:20px;
+   }
+   #floatMenu ul li a {
+    display:block;
+    border:1px solid #999;
+    background-color:#222;
+    border-left:6px solid #999;
+    text-decoration:none;
+    color:#ccc;
+    padding:5px 5px 5px 25px;
+   }
